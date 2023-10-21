@@ -94,6 +94,7 @@ type Recommendation {
   seeds: [RecommendSeedsEntry]
   tracks: [RecommendTracksEntry]
 }
+
 type Query {
   _recommendations(seed_genres: String, access_token: String!): Recommendation
     @rest(

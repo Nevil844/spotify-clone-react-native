@@ -1,5 +1,8 @@
 configurationset:
   - configuration:
+      name: postgresql_config
+      uri: postgresql://ep-noisy-mode-55717361.ap-southeast-1.aws.neon.tech/neondb?user=dominchunter69&password=M5Hb2ZFurmjc
+  - configuration:
       name: auth_config
       client_id: fce6533babd04c91a8caf56c142d35f8
       client_secret: 1bdb45d114a24f7f92442eff135c94f3
