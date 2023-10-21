@@ -29,7 +29,7 @@ const query = gql`
 
 export default function HomeScreen() {
   const { data, loading, error } = useQuery(query, {
-    variables: { genres: 'drum-and-bass,house' },
+    variables: { genres: 'pop,hindi,romantic,indian' },
   });
 
   if (loading) {

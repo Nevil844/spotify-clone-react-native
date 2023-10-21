@@ -14,3 +14,4 @@ const ApolloClientProvider = ({ children }: PropsWithChildren) => {
 }
 
 export default ApolloClientProvider;
+;

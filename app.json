@@ -22,11 +22,6 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "infoPlist":{
-        "UIBackgroundModes": [
-          "audio"
-        ]
       }
     },
     "web": {

@@ -55,6 +55,7 @@ export default function SearchScreen() {
         <FontAwesome name="search" size={16} color="gray" />
         <TextInput
           value={search}
+          placeholderTextColor={'gray'}
           onChangeText={setSearch}
           placeholder="What do you want to listen to?"
           style={styles.input}
